@@ -35,7 +35,7 @@
  * @attention Helper functions are mostly RealView (ARM CC) specific.
  *
  * Holds the functions for SIQ, YIELD and FastCall for switching to the secure world.
- * <!-- Copyright © Trustonic Limited 2013 -->
+ * <!-- Copyright ï¿½ Trustonic Limited 2013 -->
  *
  */
 

@@ -48,7 +48,6 @@
 #include "mcLoadFormat.h"
 #include "mcVersionInfo.h"
 
-
 /** MobiCore Return Code Defines.
  * List of the possible MobiCore return codes.
  */

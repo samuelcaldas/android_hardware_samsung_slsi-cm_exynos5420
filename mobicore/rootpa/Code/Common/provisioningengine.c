@@ -85,7 +85,6 @@ void addBytesToUri(char* uriP, uint8_t* bytes, uint32_t length, bool uuid )
         singleNumber=(bytes[i]&0x0F);
         singleNumber=((singleNumber<0xA)?(singleNumber+0x30):(singleNumber+0x57));
         uriP[uriidx++]=singleNumber;
-
         if(true==uuid && (3 == i || 5 == i || 7 == i || 9 == i))
         {
             uriP[uriidx++]='-';
@@ -159,7 +158,6 @@ char* createBasicLink(mcSuid_t suid)
     addBytesToUri(tmpLinkP, (uint8_t*) &suid, sizeof(suid), false);
     return tmpLinkP;
 }
-
 
 void doProvisioningWithSe(
     mcSpid_t spid,

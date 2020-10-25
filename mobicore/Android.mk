@@ -30,7 +30,6 @@ MC_INCLUDE_DIR := \
     $(COMP_PATH_MobiCore)/inc/TlCm/2.0 \
     $(MOBICORE_PROJECT_PATH)/daemon/ClientLib/public \
     $(MOBICORE_PROJECT_PATH)/daemon/Registry/Public
-
 MC_DEBUG := _DEBUG
 SYSTEM_LIB_DIR=/system/lib
 GDM_PROVLIB_SHARED_LIBS=libMcClient

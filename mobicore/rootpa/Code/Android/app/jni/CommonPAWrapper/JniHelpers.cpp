@@ -223,7 +223,6 @@ jbyteArray JniHelpers::byteArrayToJByteArray(uint8_t* dataP, uint32_t length)
             }
         }
     }
-
     return jbArray;
 }
 

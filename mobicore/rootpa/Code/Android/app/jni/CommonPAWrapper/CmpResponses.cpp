@@ -65,7 +65,6 @@ int CmpResponses::update(CmpMessage* responses, int numberOfResponses)
         LOGE("do not find add(Ljava/lang/Object)Z from List");
         return ROOTPA_ERROR_INTERNAL;
     }
-
     jobject responseObject=NULL;
     bool result;
     for(int i=0; i<numberOfResponses; i++)
@@ -111,7 +110,6 @@ jobject CmpResponses::createCmpResponseObject(CmpMessage msg)
                 constructor = env_->GetMethodID(objectCls_, "<init>", "()V");
                 LOGE("CmpResponses::createCmpResponseObject no response received, using empty response object");
             }
-
             if(constructor != NULL)
             {
 
